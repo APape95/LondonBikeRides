@@ -1,9 +1,6 @@
-# London Bike Rides Analysis
+## 🚴 London Bike Rides Analysis Project
 
-This project analyses bike ride data from London, visualising key trends and insights using Tableau. The goal is to provide a comprehensive overview of bike usage patterns across different hours and locations in the city.
-
-## 🚴‍♀️ Project Overview
-The project aims to analyze bike rides across London, identifying trends in ride duration, popular start and end locations, and hourly usage patterns. Using Python for data preprocessing and Tableau for data visualization, this analysis provides insights into how bikes are used throughout the city.
+This project explores a dataset of London bike rides, focusing on understanding patterns in ride durations, frequency, and peak usage times across various areas of the city. Using **Python** and **Tableau**, I performed a comprehensive analysis to extract meaningful insights, create visualizations, and present data-driven conclusions. This project showcases my ability to handle the full data analysis pipeline, from data cleaning and preprocessing to visualization and insights generation.
 
 ## 🛠 Technologies Used
 - **Python**: Data manipulation and cleaning using `pandas` and `numpy`
@@ -11,9 +8,21 @@ The project aims to analyze bike rides across London, identifying trends in ride
 - **Jupyter Notebook**: To document the data cleaning and analysis process
 - **SQL**: Database querying for data extraction
 
-## 📊 Tableau Dashboard
-Explore the interactive visualizations that provide insights into bike usage across London:
-[View the Tableau Dashboard here](https://public.tableau.com/views/LondonBikeRidesDashboard_17285879727540/Hour?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### 🔧 Skills and Tools Utilized
+
+- **Python**: Leveraged Python libraries like **pandas** for data manipulation and **matplotlib/seaborn** for initial data visualizations.
+- **Data Cleaning & Preprocessing**: Performed thorough data cleaning and transformation in **Jupyter Notebooks**, including handling missing values, feature engineering, and data standardization.
+- **SQL**: Used **SQL** queries to filter and organize data for analysis.
+- **Tableau**: Built an interactive **Tableau dashboard** to visualize key metrics such as hourly ride patterns, popular routes, and seasonal trends, making it easier to identify patterns and anomalies.
+- **Data Visualization**: Created compelling visual stories using **Tableau** and **Python** visualizations to communicate insights effectively to stakeholders.
+- **Version Control**: Maintained code and documentation using **Git** and **GitHub**, ensuring a clear version history and reproducibility.
+
+### 📊 Project Highlights
+
+- **Interactive Tableau Dashboard**: [Explore the dashboard](https://public.tableau.com/views/LondonBikeRidesDashboard_17285879727540/Hour?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) for an intuitive presentation of bike ride patterns across different times of the day and regions in London.
+- **Data Insights**: Identified key factors influencing ride duration and frequency, including peak riding hours and seasonal trends.
+- **Cleaned & Processed Data**: Ensured high data quality through consistent cleaning and preprocessing steps, making the dataset ready for deep analysis.
+
 
 ## 📁 Project Structure
 ```

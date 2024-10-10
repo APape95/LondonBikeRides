@@ -1,36 +1,74 @@
+# London Bike Rides Analysis
 
-# Data Analysis - Preprocessing 
+This project analyses bike ride data from London, visualising key trends and insights using Tableau. The goal is to provide a comprehensive overview of bike usage patterns across different hours and locations in the city.
 
-## Overview
-In this project, I thoroughly analyzed a given dataframe, employing various techniques to extract insights and draw conclusions.
+## 🚴‍♀️ Project Overview
+The project aims to analyze bike rides across London, identifying trends in ride duration, popular start and end locations, and hourly usage patterns. Using Python for data preprocessing and Tableau for data visualization, this analysis provides insights into how bikes are used throughout the city.
 
-### Analysis Highlights:
+## 🛠 Technologies Used
+- **Python**: Data manipulation and cleaning using `pandas` and `numpy`
+- **Tableau**: For interactive data visualization
+- **Jupyter Notebook**: To document the data cleaning and analysis process
+- **SQL**: Database querying for data extraction
 
-### Initial Data Exploration:
-- **Dataframe Import:** Loaded the dataframe from the provided `store_income_data_task.csv` file.
-   
-- **Observations:** Examined the first five records to understand the dataframe's structure and content.
+## 📊 Tableau Dashboard
+Explore the interactive visualizations that provide insights into bike usage across London:
+[View the Tableau Dashboard here](https://public.tableau.com/views/LondonBikeRidesDashboard_17285879727540/Hour?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- **Handling Missing Values:** Identified missing values per column to assess data quality.
+## 📁 Project Structure
+```
+├── data/                     # Contains the raw and processed datasets
+├── notebooks/                # Jupyter notebooks for data cleaning and EDA
+├── src/                      # Python scripts for data analysis
+├── images/                   # Screenshots of the Tableau visualizations
+├── README.md                 # Project documentation
+└── requirements.txt          # Python package dependencies
+```
 
-# London Bike Rides Data Analysis 
-This project involves analyzing the London Bike Sharing dataset, which contains information on bike-sharing activities in London. The data is used to gain insights into bike usage patterns, weather effects, and time-based trends, among others. The project is structured to facilitate data analysis and prepare visualizations using Tableau.
+## 💾 Dataset
+The dataset used for this project includes information on bike rides in London, detailing:
+- Start and end locations
+- Ride durations
+- Time of day
+- Weather conditions
 
-## Key Steps: 
-- **Data Acquisition:** Downloaded the "London Bike Sharing Dataset" from Kaggle using the Kaggle API. Extracted the dataset using Python's zipfile module. 
-- **Data Preparation:** Loaded the dataset into a Pandas DataFrame for manipulation and analysis. Performed data cleaning, including handling missing values and formatting date-time fields for time-based analysis. Added new features to enrich the analysis, such as hour, day of the week, and seasonal indicators. 
-- **Exploratory Data Analysis (EDA):** Conducted initial data exploration to understand the distribution of data, key statistics, and trends. Visualized relationships between bike usage and external factors such as temperature, humidity, and weather conditions. Investigated time-based patterns, including daily and monthly usage trends. 
-- **Data Export for Visualization:** Prepared a final DataFrame containing cleaned and aggregated data, tailored for further visualizations in Tableau. Exported the cleaned data to an Excel file named london_bikes_final.xlsx, with the sheet name Data. 
-- **Tableau Integration:** The exported Excel file is intended to be used in Tableau for creating interactive visualizations to present insights derived from the dataset. 
+### Source
+Data is sourced from [London bike sharing dataset](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset)
 
-# Technologies Used: 
-- **Python:** Data analysis and preparation using libraries like pandas, zipfile, and kaggle.
-- **Jupyter Notebook:** Code execution and documentation.
-- **Kaggle API:** Automated download of datasets.
-- **Excel:** Data export for use in Tableau.
-- **Tableau:** For creating interactive visualizations based on the analysis.
+## 🚀 Getting Started
+To run this project locally, follow these steps:
 
-<div align="center">
-	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png" alt="Jupyter Notebook" title="Jupyter Notebook"/></code>
-	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python"/></code>
-</div>
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/APape95/LondonBikeRides.git
+   cd LondonBikeRides
+   ```
+
+2. **Install dependencies:**
+   Make sure you have Python installed, then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the analysis:**
+   Open the Jupyter notebook in the `notebooks` folder to explore the data analysis:
+   ```bash
+   jupyter notebook notebooks/data_analysis.ipynb
+   ```
+
+## 🖼 Screenshots
+### Example Visualization
+![Tableau Dashboard Screenshot](images/tableau_dashboard_example.png)
+
+## ✨ Key Insights
+- **Peak Usage Hours**: The data revealed that bike rides peak during morning and evening rush hours.
+- **Popular Routes**: Central London locations have the highest number of ride starts and ends.
+- **Ride Duration Trends**: Weekends show longer ride durations compared to weekdays.
+
+## 📬 Contact
+If you have any questions or feedback, feel free to reach out:
+- **GitHub**: [APape95](https://github.com/APape95)
+
+## 🙌 Acknowledgements
+- Thanks to [TfL Open Data] for the dataset.
+- Special mention to the Tableau community for their visualzation tips and resources.

@@ -67,7 +67,7 @@ To run this project locally, follow these steps:
 
 ## 🖼 Screenshots
 ### Example Visualization
-![Tableau Dashboard Screenshot](images/tableau_dashboard_example.png)
+To be updated ...
 
 ## ✨ Key Insights
 - **Peak Usage Hours**: The data revealed that bike rides peak during morning and evening rush hours.

@@ -67,7 +67,8 @@ To run this project locally, follow these steps:
 
 ## 🖼 Screenshots
 ### Example Visualization
-To be updated ...
+<img src="https://github.com/APape95/LondonBikeRides/blob/main/Screenshot%202024-10-10%20204245.png" alt="Example Visualization" width="600"/>
+
 
 ## ✨ Key Insights
 - **Peak Usage Hours**: The data revealed that bike rides peak during morning and evening rush hours.
